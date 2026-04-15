@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://panscience-assignment-zvnl.onrender.com/api/:path*"
+    },
+    {
+      "source": "/uploads/:path*",
+      "destination": "https://panscience-assignment-zvnl.onrender.com/uploads/:path*"
+    }
+  ]
+}
